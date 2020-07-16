@@ -1,5 +1,5 @@
 document.getElementById("reset").addEventListener("click", function reset() {
-  document.getElementById("head").innerHTML = "Hit Refresh";
+  document.getElementById("head").innerHTML = "Click the die to ROLL";
   document.getElementById("dice1").setAttribute("src", "images/dice6.png");
   document.getElementById("dice2").setAttribute("src", "images/dice6.png");
 });
